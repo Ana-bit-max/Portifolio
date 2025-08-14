@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfólio – Ana Luiza</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar fixa -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a class="brand" href="#home">Ana Luiza</a>
+      <nav id="nav" class="nav-links">
+        <a href="#home" class="nav-link active">Início</a>
+        <a href="#about" class="nav-link">Sobre</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projetos</a>
+        <a href="#contact" class="nav-link">Contato</a>
+      </nav>
+      <button id="menuBtn" class="menu-btn" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="section hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <p class="eyebrow">Hello, I'm</p>
+        <h1>Ana Luiza</h1>
+        <p class="subtitle">Desenvolvedora Front-end</p>
+        <div class="cta">
+          <a class="btn primary" href="#projects">Ver Projetos</a>
+          <a class="btn outline" href="#contact">Contato</a>
+        </div>
+        <div class="socials">
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn">in</a>
+          <a href="https://github.com/" target="_blank" rel="noreferrer" aria-label="GitHub">GH</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <!-- troque a imagem abaixo pelo seu arquivo (ex: img/foto.jpg) -->
+        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=600" alt="Foto de perfil de Ana Luiza">
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">Sobre Mim</h2>
+      <div class="about-grid">
+        <div class="about-card">
+          <h3>Perfil</h3>
+          <p>
+            Sou desenvolvedora iniciante focada em criar interfaces modernas, acessíveis e responsivas.
+            Busco minha primeira oportunidade como estagiária ou júnior e adoro aprender coisas novas.
+          </p>
+        </div>
+        <div class="about-card">
+          <h3>Faculdade</h3>
+          <!-- edite aqui com sua graduação -->
+          <p>
+            <strong>Graduação:</strong> Análise e Desenvolvimento de Sistemas<br>
+            <strong>Instituição:</strong> (sua faculdade aqui)<br>
+            <strong>Período:</strong> (ex.: 2024–2026)
+          </p>
+        </div>
+        <div class="about-card">
+          <h3>O que eu busco</h3>
+          <p>
+            Estágio ou vaga júnior em Front-end, contribuindo com HTML, CSS e JavaScript e crescendo
+            com um time colaborativo.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section alt">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-col">
+          <h3>Hard Skills</h3>
+          <ul class="pill-list">
+            <li>HTML5</li>
+            <li>CSS3 (Flexbox/Grid)</li>
+            <li>JavaScript (ES6+)</li>
+            <li>Git & GitHub</li>
+            <li>Responsividade</li>
+            <li>Acessibilidade</li>
+          </ul>
+        </div>
+        <div class="skill-col">
+          <h3>Soft Skills</h3>
+          <ul class="pill-list">
+            <li>Comunicação</li>
+            <li>Trabalho em equipe</li>
+            <li>Organização</li>
+            <li>Proatividade</li>
+            <li>Aprendizado rápido</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projetos -->
+  <section id="projects" class="section">
+    <div class="container">
+      <p class="eyebrow center">Browse My Recent</p>
+      <h2 class="section-title">Projects</h2>
+
+      <div class="projects-grid">
+        <!-- Projeto 1 -->
+        <article class="project-card">
+          <div class="project-media">
+            <img src="https://images.unsplash.com/photo-1554435493-93422e8220e1?w=1200" alt="Projeto 1">
+          </div>
+          <div class="project-body">
+            <h3>Calculadora de IMC</h3>
+            <p>Ferramenta simples para calcular IMC com validação e layout responsivo.</p>
+            <div class="project-actions">
+              <a class="btn chip" href="#" target="_blank" rel="noreferrer">Github</a>
+              <a class="btn chip" href="#" target="_blank" rel="noreferrer">Live Demo</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Projeto 2 -->
+        <article class="project-card">
+          <div class="project-media">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200" alt="Projeto 2">
+          </div>
+          <div class="project-body">
+            <h3>To-Do List</h3>
+            <p>Lista de tarefas com armazenamento no localStorage e filtros.</p>
+            <div class="project-actions">
+              <a class="btn chip" href="#" target="_blank" rel="noreferrer">Github</a>
+              <a class="btn chip" href="#" target="_blank" rel="noreferrer">Live Demo</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Projeto 3 -->
+        <article class="project-card">
+          <div class="project-media">
+            <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?w=1200" alt="Projeto 3">
+          </div>
+          <div class="project-body">
+            <h3>Landing Page</h3>
+            <p>Página de apresentação moderna com grid e componentes reutilizáveis.</p>
+            <div class="project-actions">
+              <a class="btn chip" href="#" target="_blank" rel="noreferrer">Github</a>
+              <a class="btn chip" href="#" target="_blank" rel="noreferrer">Live Demo</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contact" class="section alt">
+    <div class="container">
+      <p class="eyebrow center">Get in Touch</p>
+      <h2 class="section-title">Contact Me</h2>
+
+      <div class="contact-card">
+        <div class="contact-item">
+          <span class="icon">✉️</span>
+          <a href="mailto:ana@email.com">ana@email.com</a>
+        </div>
+        <div class="contact-item">
+          <span class="icon">in</span>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <ul class="footer-nav">
+        <li><a href="#home">Início</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+      <p>© 2025 Ana Luiza. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
