@@ -96,10 +96,7 @@ body{
 }
 
 /* Projetos */
-.projects-grid{
-  display:grid; gap:26px;
-  grid-template-columns: repeat(3, 1fr);
-}
+
 .project-card{
   background:#fff; border:1px solid rgba(0,0,0,.06);
   border-radius: var(--radius-xl); overflow:hidden; box-shadow: var(--shadow);
